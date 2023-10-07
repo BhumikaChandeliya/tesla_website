@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    height: 100vh;
+    width: 198vh;
+}
+header{
+    background: linear-gradient(#39476c, #141414);
+    height: 5vh;
+    width: 250vh;
+    position: fixed;
+    font-size: 20px;
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: none;
+    background: none;
+}
+#veh{
+    margin-left: 650px;
+    margin-right: 10px;
+}
+footer{
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 198vh;
+    position: fixed;
+    top: 900px;
+   }
+.button{
+    height: 40px;
+    width: 280px;
+    border-radius: 5px;    
+}
+ #order{
+    position: absolute;
+    top: 680px;
+    left: 670px;
+    background-color: white;
+    font-size: 20px;
+ }  
+#demo{
+    position: absolute;
+    top: 680px;
+    left: 970px;
+    background-color: rgb(160, 156, 156);
+    font-size: 20px;
+}
+a{
+    color: white;
+}
+#ket{
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    font-size: 30px;
+}
+#net{
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    left: 890px;
+}
+#let{
+    position: absolute;
+    top: 230px;
+    left: 820px;
+}
+
+#icon{
+    margin-left: 610px;
+}
+button ion-icon{
+    height: 18px;
+    width: 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+button ion-icon:hover{
+    background-color: rgb(168, 163, 163);
+}
+.tesla{
+    margin-top: -38px;
+    background-image: url(https://media4.speedcafe.com/wp-content/uploads/2021/01/2021-tesla-model-s-plaid_1.jpg);     
+    height:810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+.parent{
+    height: 10vh;
+    width: 198vh;
+    display: flex;
+}
+.parent{
+    position: fixed;
+    top: 55px;
+    left: 10px;
+}
+.box1{
+    margin: 15px;
+}
+.Y{
+    text-align: center;
+   margin: 15px;
+}
